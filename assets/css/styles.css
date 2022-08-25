@@ -87,6 +87,26 @@ button {
   transition: background 1s;
 }
 
+input,
+textarea {
+  border: 2px solid var(--primary-color-contrast);
+  background-color: var(--field-background-color);
+  color: var(--primary-color-contrast);
+  padding: 8px;
+  margin-bottom: 24px;
+  font-size: 1rem;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  border-color: #000;
+}
+
 /*** HEADER STYLES ***/
 
 header {
