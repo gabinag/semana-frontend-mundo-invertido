@@ -163,3 +163,21 @@ header::before {
   mask: var(--character-bottom-image-src) bottom / contain no-repeat;
   -webkit-mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
 }
+
+/*** MAIN STYLES ***/
+
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*** SECTION STYLES ***/
+
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 95px;
+}
+
