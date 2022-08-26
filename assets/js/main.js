@@ -16,4 +16,9 @@ btnSubscribe.addEventListener('click', () => {
     }
 
     subscribeToHellfireClub(subscription)
+
+    txtName.value = ''
+    txtEmail.value = ''
+    txtLevel.value = ''
+    txtCharacter.value = ''
 })
