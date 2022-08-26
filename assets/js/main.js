@@ -6,4 +6,11 @@ const txtCharacter = document.getElementById('txtCharacter')
 
 const btnSubscribe = document.getElementById('btnSubscribe')
 
-btnSubscribe
+btnSubscribe.addEventListener('click', () => {
+    const subscription = {
+        name: txtName.value,
+        email: txtEmail.value,
+        level: txtLevel.value,
+        character: txtCharacter.value
+    }
+})
