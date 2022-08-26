@@ -1,3 +1,4 @@
+import app from "./firebase/app"
 
 const txtName = document.getElementById('txtName')
 const txtEmail = document.getElementById('txtEmail') 
