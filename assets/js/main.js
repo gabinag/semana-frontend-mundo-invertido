@@ -1,4 +1,4 @@
-import app from "./firebase/app"
+import { subscribeToHellfireClub } from './firebase/hellfire-club.js'
 
 const txtName = document.getElementById('txtName')
 const txtEmail = document.getElementById('txtEmail') 
@@ -14,4 +14,6 @@ btnSubscribe.addEventListener('click', () => {
         level: txtLevel.value,
         character: txtCharacter.value
     }
+
+    subscribeToHellfireClub(subscription)
 })
